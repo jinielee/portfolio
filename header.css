@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+body{margin: 0%; font-family: 'Nanum Myeongjo', serif;}
+a{text-decoration: none; color: rgba(255, 255, 255, 0.877)}
+
+/* 헤더 */
+.header{
+    background-color: #3f3f3f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.homebotten{
+    margin-left: 80px;
+}
+
+.homebotten a{
+    font-size: 27px;
+    font-weight:800;
+    padding: 8px 25px;
+    border-radius: 15px;
+}
+
+/* .homebotten a:hover{
+    background-color: rgba(255, 255, 255, 0.719);
+} */
+
+.headertab{
+    margin-left: 420px;
+}
+.headertab a{
+    margin-left: 4px;
+    padding: 6px 25px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+.headertab a:hover{
+    background-color: rgba(255, 255, 255, 0.719);
+    color: black;
+}
+.contectbotten{
+    margin-right: 80px;
+    
+}
+
+.contectbotten a{
+    font-size: 16px;
+    background-color: rgb(197, 124, 124);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.contectbotten a:hover{
+    background-color: rgba(255, 255, 255, 0.719);
+    color: black;
+}
+
+/* 헤더 끝 */
