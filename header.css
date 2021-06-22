@@ -26,9 +26,6 @@ a{text-decoration: none; color: rgba(255, 255, 255, 0.877)}
     padding: 8px 25px;
     border-radius: 15px;
 }
-.homebotten a:hover{
-    color: rgb(219, 185, 185);
-}
 
 /* .homebotten a:hover{
     background-color: rgba(255, 255, 255, 0.719);
