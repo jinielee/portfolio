@@ -32,7 +32,8 @@ a{text-decoration: none; color: rgba(255, 255, 255, 0.877)}
 } */
 
 .headertab{
-    margin-left: 420px;
+    margin-left: 360px;
+    width: 500px;
 }
 .headertab a{
     margin-left: 4px;

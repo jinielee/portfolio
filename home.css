@@ -3,21 +3,30 @@ body{margin: 0%; font-family: 'Nanum Myeongjo', serif;}
 a{text-decoration: none; color: white}
 
 .hometext{
-    background-image: url("./img/IMG_1624.jpeg");
+    background-image: url("./img/jjj.jpeg");
     background-size:cover;
+    /* background-color: rgb(247, 247, 247); */
     width: 100%;
     height: 100vh;
 }
 
+
+
+
+
 .homebigtext{
     height: 80vh;
-    color: rgb(250, 250, 250, 0.877);
-    font-size: 340px;
+    color: rgb(44, 44, 44);
+    font-size: 70px;
     text-align: center;
     line-height: 100vh;
 }
 
+.homebigtext a{
+    color: rgb(250, 250, 250);
+}
+
 .homebigtext a:hover{
-    opacity: 70%;
+    opacity: 85%;
     
 }
