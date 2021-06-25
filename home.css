@@ -3,15 +3,12 @@ body{margin: 0%; font-family: 'Nanum Myeongjo', serif;}
 a{text-decoration: none; color: white}
 
 .hometext{
-    background-image: url("./img/jjj.jpeg");
+    background-image: url("./img/Sunflower Spectacle.jpeg");
     background-size:cover;
     /* background-color: rgb(247, 247, 247); */
     width: 100%;
     height: 100vh;
 }
-
-
-
 
 
 .homebigtext{
@@ -23,7 +20,7 @@ a{text-decoration: none; color: white}
 }
 
 .homebigtext a{
-    color: rgb(250, 250, 250);
+    color: rgb(54, 54, 54);
 }
 
 .homebigtext a:hover{

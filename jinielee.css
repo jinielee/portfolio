@@ -6,9 +6,9 @@ a{text-decoration: none; color: white}
 .page1{
     display: flex;
     flex-direction: row;
-    /* background-image: url("./img/jjjjj.jpeg");
+    /* background-image: url("./img/Maxam.jpeg");
     background-size:cover; */
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(255, 243, 205);
     width: 100%;
     height: 100vh;
 }
@@ -24,46 +24,109 @@ a{text-decoration: none; color: white}
     margin-right: 20vh;
     height: 300px;
     width: 600px;
-    background-color: rgba(172, 255, 47, 0);
-    margin-top: 53vh;
+    background-color: rgba(241, 241, 241, 0);
+    margin-top: 40vh;
     
-    color: rgb(58, 58, 58);
+    color: rgb(61, 61, 61);
 }
 
 .jinietext{
-    font-size: 60px;
+    font-size: 55px;
     margin-bottom: 4vh;
 }
 
 .textexplain{
-    line-height: 44px;
+    line-height: 38px;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .page2{
     /* background-image: url("./img/jjjjj.jpeg");
     background-size:cover; */
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(160, 112, 112);
     width: 100%;
     height: 100vh;
+    justify-content: center;
 }
 
 .imgdiv{
-    padding-top: 25vh;
+    padding-top: 24vh;
+
     text-align: center;  
-    margin-left: 6.5vw;
-    margin-right: 6.5vw;
-    width: 87vw;
+    margin-left: 8.5vw;
+    margin-right: 8.5vw;
+    width: 83vw;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr) );
+    grid-template-columns: repeat(auto-fill, minmax(36vh, 1fr) );
 }
 
+.imgdivsmall{
+    position: relative;;
+    width: 240px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.imgg{
+    position: absolute;
+}
+
+.circle{
+    font-size: 47px;
+    color: rgb(255, 254, 249);
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    background-color: rgba(63, 63, 63, 0.938);
+    opacity: 0;
+    border: cornflowerblue solid 0px;
+    border-radius: 50%;
+    line-height: 230px;
+}
+
+.circle{
+    opacity: 100;
+}
+
+
+/* .circlediv{
+    position: absolute;
+
+    text-align: center;  
+    margin-left: 8.5vw;
+    margin-right: 8.5vw;
+    width: 83vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(36vh, 1fr) );
+}
+.circle{
+    width: 230px;
+    height: 230px;
+    background-color: blanchedalmond;
+
+} */
+/* .circlediv{
+    width: 83vw;
+    position:absolute;
+    padding-top: 24vh;
+    background-color: black;
+    text-align: center;  
+    margin-left: 8.5vw;
+    margin-right: 8.5vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(36vh, 1fr) );
+} */
+
+
 .ment{
-    margin-top: 10vh;
+
+    margin-top: 42vh;
     text-align: center;
     color: rgb(243, 243, 243);
-    font-size: 20px;
+    font-size: 22px;
     line-height: 35px;
 }
