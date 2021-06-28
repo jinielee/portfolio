@@ -1,42 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
-body{margin: 0%; font-family: 'Nanum Myeongjo', serif;
-    }
-a{text-decoration: none; color: white}
-
-.page2020{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(247, 229, 179);
-    padding-top: 25vh;
-    padding-left: 8vw;
-    padding-right: 8vw;
-}
-
-.bigtext1{
-    font-size: 60px;
-    color: rgb(58, 58, 58);
-}
-
-.whenline{
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+        body {
+            margin: 0%;
+            font-family: 'Nanum Myeongjo', serif;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white
+        }
+        
+        .page2020 {
+            width: 84vw;
+            height: 100vh;
+            background-color: rgb(247, 229, 179);
+            padding-top: 25vh;
+            padding-left: 8vw;
+            padding-right: 8vw;
+        }
+        
+        .bigtext1 {
+            font-size: 60px;
+            color: rgb(58, 58, 58);
+        }
+        /* .whenline {
+    padding-top: 10vh;
+    padding-bottom: 5vh;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(36vh, 1fr) );
+    grid-template-columns: repeat(auto-fill, minmax(30vh, 1fr));
+    font-size: 12px;
 }
 
-.personalprojectline{
+.personalprojectline {
+    padding-top: 2vh;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(36vh, 1fr) );
+    grid-template-columns: repeat(auto-fill, minmax(30vh, 1fr));
+    font-size: 12px;
 }
 
-.hyehwaprojectline{
+.hyehwaprojectline {
+    padding-top: 2vh;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(36vh, 1fr) );
+    grid-template-columns: repeat(auto-fill, minmax(30vh, 1fr));
+    font-size: 12px;
 }
 
-.teamprojectline{
+.teamprojectline {
+    padding-top: 2vh;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(36vh, 1fr) );
+    grid-template-columns: repeat(auto-fill, minmax(30vh, 1fr));
+    font-size: 12px;
 }
+
+.linefirst {
+    width: 14vw;
+    background-color: tomato;
+}
+
+.linefirst a {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.line2,
+.line3,
+.line4,
+.line5 {
+    width: 24vw;
+    background-color: thistle;
+    margin-right: 3vw;
+}
+
+.line3sp {
+    font-size: 10px;
+} */
+        
+        .projectbigdiv {
+            margin-top: 12vh;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .lineone,
+        .linetwo,
+        .linethree,
+        .linefour,
+        .linefive {
+            display: flex;
+            flex-direction: column;
+            width: 33vh;
+        }
+        /* .when  {
+    background-color: violet;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+} */
+        /* .when,
+        .personal,
+        .hyehwa,
+        .team {
+            
+        } */
+        
+        .when a,
+        .personal a,
+        .hyehwa a,
+        .team a {
+            background-color: violet;
+            width: 30vw;
+            padding-left: 1.5vw;
+            padding-right: 1.5vw;
+            padding-top: 1vh;
+            padding-bottom: 1vh;
+        }

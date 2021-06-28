@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
-body{margin: 0%; font-family: 'Nanum Myeongjo', serif;
-    }
-a{text-decoration: none; color: white}
+body {
+    margin: 0%;
+    font-family: 'Nanum Myeongjo', serif;
+}
 
-.page1{
+a {
+    text-decoration: none;
+    color: white
+}
+
+
+/* 1페이지 */
+
+.page1 {
     display: flex;
     flex-direction: row;
     /* background-image: url("./img/Maxam.jpeg");
@@ -13,35 +22,37 @@ a{text-decoration: none; color: white}
     height: 100vh;
 }
 
-.img{
+.img {
     margin-left: 15vh;
     padding-top: 20vh;
     display: flex;
 }
 
-.text{
+.text {
     margin-left: 90px;
     margin-right: 20vh;
     height: 300px;
     width: 600px;
     background-color: rgba(241, 241, 241, 0);
     margin-top: 40vh;
-    
     color: rgb(61, 61, 61);
 }
 
-.jinietext{
+.jinietext {
     font-size: 55px;
     margin-bottom: 4vh;
 }
 
-.textexplain{
+.textexplain {
     line-height: 38px;
     margin-top: 20px;
     font-size: 22px;
 }
 
-.page2{
+
+/* 1페이지 끝 */
+
+.page2 {
     /* background-image: url("./img/jjjjj.jpeg");
     background-size:cover; */
     background-color: rgb(160, 112, 112);
@@ -50,30 +61,31 @@ a{text-decoration: none; color: white}
     justify-content: center;
 }
 
-.imgdiv{
+.imgdiv {
     padding-top: 24vh;
-
-    text-align: center;  
-    margin-left: 8.5vw;
-    margin-right: 8.5vw;
-    width: 83vw;
+    text-align: center;
+    /* margin-left: 3.3vw; */
+    /* padding-left: 8vw;
+    padding-right: 8vw; */
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(36vh, 1fr) );
+    grid-template-columns: repeat(auto-fill, minmax(36vh, 1fr));
 }
 
-.imgdivsmall{
-    position: relative;;
+.imgdivsmall {
+    position: relative;
+    ;
     width: 240px;
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.imgg{
+.imgg {
     position: absolute;
 }
 
-.circle{
+.circle {
     font-size: 47px;
     color: rgb(255, 254, 249);
     position: absolute;
@@ -86,7 +98,7 @@ a{text-decoration: none; color: white}
     line-height: 230px;
 }
 
-.circle{
+.circle {
     opacity: 100;
 }
 
@@ -108,6 +120,8 @@ a{text-decoration: none; color: white}
     background-color: blanchedalmond;
 
 } */
+
+
 /* .circlediv{
     width: 83vw;
     position:absolute;
@@ -121,9 +135,7 @@ a{text-decoration: none; color: white}
     grid-template-columns: repeat(auto-fill, minmax(36vh, 1fr) );
 } */
 
-
-.ment{
-
+.ment {
     margin-top: 42vh;
     text-align: center;
     color: rgb(243, 243, 243);
