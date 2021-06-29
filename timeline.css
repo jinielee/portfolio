@@ -1,120 +1,147 @@
-        @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
-        body {
-            margin: 0%;
-            font-family: 'Nanum Myeongjo', serif;
-        }
-        
-        a {
-            text-decoration: none;
-            color: white
-        }
-        
-        .page2020 {
-            width: 84vw;
-            height: 100vh;
-            background-color: rgb(247, 229, 179);
-            padding-top: 25vh;
-            padding-left: 8vw;
-            padding-right: 8vw;
-        }
-        
-        .bigtext1 {
-            font-size: 60px;
-            color: rgb(58, 58, 58);
-        }
-        /* .whenline {
-    padding-top: 10vh;
-    padding-bottom: 5vh;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(30vh, 1fr));
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+body {
+    margin: 0%;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.page2020 {
+    width: 84vw;
+    height: 100vh;
+    background-color: rgb(247, 229, 179);
+    padding-top: 25vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+.bigtext1 {
+    font-size: 60px;
+    color: rgb(58, 58, 58);
+}
+
+.projectbigdiv {
+    margin-top: 12vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.lineone {
+    width: 25vw;
+    text-align: center;
+    margin-right: 2vw;
     font-size: 12px;
 }
 
-.personalprojectline {
-    padding-top: 2vh;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(30vh, 1fr));
+.linetwo,
+.linethree,
+.linefour,
+.linefive {
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+    margin-right: 2vw;
     font-size: 12px;
 }
 
-.hyehwaprojectline {
-    padding-top: 2vh;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(30vh, 1fr));
+.lineone {
+    text-align: center;
+    margin-right: 2vw;
     font-size: 12px;
 }
 
-.teamprojectline {
-    padding-top: 2vh;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(30vh, 1fr));
-    font-size: 12px;
-}
-
-.linefirst {
-    width: 14vw;
-    background-color: tomato;
-}
-
-.linefirst a {
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
-.line2,
-.line3,
-.line4,
-.line5 {
-    width: 24vw;
-    background-color: thistle;
-    margin-right: 3vw;
-}
-
-.line3sp {
-    font-size: 10px;
-} */
-        
-        .projectbigdiv {
-            margin-top: 12vh;
-            display: flex;
-            flex-direction: row;
-        }
-        
-        .lineone,
-        .linetwo,
-        .linethree,
-        .linefour,
-        .linefive {
-            display: flex;
-            flex-direction: column;
-            width: 33vh;
-        }
-        /* .when  {
-    background-color: violet;
+.when {
+    margin-bottom: 6vh;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
-} */
-        /* .when,
-        .personal,
-        .hyehwa,
-        .team {
-            
-        } */
-        
-        .when a,
-        .personal a,
-        .hyehwa a,
-        .team a {
-            background-color: violet;
-            width: 30vw;
-            padding-left: 1.5vw;
-            padding-right: 1.5vw;
-            padding-top: 1vh;
-            padding-bottom: 1vh;
-        }
+    border: rgba(64, 224, 208, 0) solid 1px;
+    border-radius: 25px;
+    background-color: violet;
+}
+
+.personal {
+    margin-bottom: 2vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: rgba(64, 224, 208, 0) solid 1px;
+    border-radius: 25px;
+    background-color: violet;
+}
+
+.hyehwa {
+    margin-bottom: 2vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: rgba(64, 224, 208, 0) solid 1px;
+    border-radius: 25px;
+    background-color: violet;
+}
+
+.team {
+    margin-bottom: 0.5vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: rgba(64, 224, 208, 0) solid 1px;
+    border-radius: 25px;
+    background-color: violet;
+}
+
+.tt1 {
+    margin-bottom: 6vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: rgba(64, 224, 208, 0) solid 1px;
+    border-radius: 25px;
+    background-color: violet;
+    text-align: center;
+}
+
+.personal1 {
+    margin-bottom: 2vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: rgba(64, 224, 208, 0) solid 1px;
+    border-radius: 25px;
+    background-color: violet;
+    text-align: center;
+}
+
+.hyehwa1 {
+    margin-bottom: 2vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: rgba(64, 224, 208, 0) solid 1px;
+    border-radius: 25px;
+    background-color: violet;
+    text-align: center;
+}
+
+.team1 {
+    margin-bottom: 2vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: rgba(64, 224, 208, 0) solid 1px;
+    border-radius: 25px;
+    background-color: rgb(187, 187, 187);
+    font-size: 11px;
+    text-align: center;
+}
