@@ -17,20 +17,20 @@ a {
     flex-direction: row;
     /* background-image: url("./img/Maxam.jpeg");
     background-size:cover; */
-    background-color: rgb(255, 243, 205);
+    background-color: rgb(253, 253, 252);
     width: 100%;
     height: 100vh;
 }
 
 .img {
-    margin-left: 15vh;
+    margin-left: 18vh;
     padding-top: 20vh;
     display: flex;
 }
 
 .text {
     margin-left: 90px;
-    margin-right: 20vh;
+    margin-right: 18vh;
     height: 300px;
     width: 600px;
     background-color: rgba(241, 241, 241, 0);
@@ -40,11 +40,11 @@ a {
 
 .jinietext {
     font-size: 55px;
-    margin-bottom: 4vh;
+    margin-bottom: 4.5vh;
 }
 
 .textexplain {
-    line-height: 38px;
+    line-height: 37px;
     margin-top: 20px;
     font-size: 22px;
 }
@@ -55,19 +55,21 @@ a {
 .page2 {
     /* background-image: url("./img/jjjjj.jpeg");
     background-size:cover; */
-    background-color: rgb(160, 112, 112);
+    background-color: rgb(255, 241, 194);
     width: 100%;
     height: 100vh;
     justify-content: center;
 }
 
 .imgdiv {
-    padding-top: 24vh;
+    padding-top: 24.5vh;
     text-align: center;
     /* margin-left: 3.3vw; */
     /* padding-left: 8vw;
     padding-right: 8vw; */
-    width: 100%;
+    width: 80%;
+    margin-left: 11.5%;
+    margin-right: 10%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-columns: repeat(auto-fill, minmax(36vh, 1fr));
@@ -75,10 +77,9 @@ a {
 
 .imgdivsmall {
     position: relative;
-    ;
-    width: 240px;
-    padding-left: 5px;
-    padding-right: 5px;
+    width: 40vw;
+    /* padding-left: ;
+    padding-right: 5px; */
 }
 
 .imgg {
@@ -86,20 +87,21 @@ a {
 }
 
 .circle {
-    font-size: 47px;
+    font-size: 38px;
     color: rgb(255, 254, 249);
     position: absolute;
     width: 230px;
     height: 230px;
     background-color: rgba(63, 63, 63, 0.938);
-    opacity: 0;
+    opacity: 0%;
     border: cornflowerblue solid 0px;
     border-radius: 50%;
     line-height: 230px;
 }
 
-.circle {
-    opacity: 100;
+.circle:hover {
+    opacity: 100%;
+    cursor: pointer;
 }
 
 
@@ -136,9 +138,9 @@ a {
 } */
 
 .ment {
-    margin-top: 42vh;
+    margin-top: 40vh;
     text-align: center;
-    color: rgb(243, 243, 243);
+    color: rgb(53, 53, 53);
     font-size: 22px;
-    line-height: 35px;
+    line-height: 36px;
 }

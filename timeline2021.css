@@ -12,8 +12,8 @@ a {
 .page2020 {
     width: 84vw;
     height: 100vh;
-    background-image: url("./img/gh.jpeg");
-    background-size: contain;
+    background-image: url("./img/perfect sky.jpeg");
+    background-size: cover;
     /* background-color: rgb(255, 191, 131); */
     padding-left: 8vw;
     padding-right: 8vw;
@@ -52,7 +52,7 @@ a {
     padding-top: 28.5vh;
     font-size: 60px;
     /* text-shadow: 1px 1.2px 0px rgb(48, 48, 48); */
-    color: rgb(56, 56, 56);
+    color: rgb(240, 240, 240);
 }
 
 .projectbigdiv {

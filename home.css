@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
-body{margin: 0%; font-family: 'Nanum Myeongjo', serif;}
-a{text-decoration: none; color: white}
+body {
+    margin: 0%;
+    font-family: 'Nanum Myeongjo', serif;
+}
 
-.hometext{
+a {
+    text-decoration: none;
+    color: white
+}
+
+.hometext {
     background-image: url("./img/Sunflower Spectacle.jpeg");
-    background-size:cover;
+    background-size: cover;
     /* background-color: rgb(247, 247, 247); */
     width: 100%;
     height: 100vh;
 }
 
-
-.homebigtext{
+.homebigtext {
     height: 80vh;
     color: rgb(44, 44, 44);
     font-size: 70px;
@@ -19,11 +25,10 @@ a{text-decoration: none; color: white}
     line-height: 100vh;
 }
 
-.homebigtext a{
+.homebigtext a {
     color: rgb(54, 54, 54);
 }
 
-.homebigtext a:hover{
+.homebigtext a:hover {
     opacity: 85%;
-    
 }
