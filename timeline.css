@@ -12,8 +12,8 @@ a {
 .page2020 {
     width: 84vw;
     height: 100vh;
-    background-image: url("./img/gh.jpeg");
-    background-size: contain;
+    background-image: url("./img/IMAGEM LINDA.jpeg");
+    background-size: cover;
     /* background-color: rgb(255, 191, 131); */
     padding-left: 8vw;
     padding-right: 8vw;
@@ -52,7 +52,7 @@ a {
     padding-top: 28.5vh;
     font-size: 60px;
     /* text-shadow: 1px 1.2px 0px rgb(48, 48, 48); */
-    color: rgb(56, 56, 56);
+    color: rgb(252, 252, 252);
 }
 
 .projectbigdiv {
@@ -156,11 +156,12 @@ a {
     padding-right: 1.5vw;
     padding-top: 1.7vh;
     padding-bottom: 1.7vh;
-    border: rgb(54, 54, 54) solid 1px;
+    border: rgba(255, 255, 255, 0.582) solid 0.5px;
     border-radius: 25px;
     font-size: 11px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(37, 37, 37, 0.781);
     text-align: center;
+    color: white;
 }
 
 .personal1 {
@@ -172,8 +173,13 @@ a {
     border: rgb(54, 54, 54) solid 1px;
     border-radius: 25px;
     font-size: 11px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(255, 255, 255, 0.87);
     text-align: center;
+}
+
+.personal1:hover {
+    opacity: 60%;
+    cursor: pointer;
 }
 
 .hyehwa1 {
@@ -185,8 +191,13 @@ a {
     border: rgb(117, 117, 117) solid 1px;
     border-radius: 25px;
     font-size: 11px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(255, 255, 255, 0.87);
     text-align: center;
+}
+
+.hyehwa1:hover {
+    opacity: 60%;
+    cursor: pointer;
 }
 
 .team1 {
@@ -197,9 +208,14 @@ a {
     padding-bottom: 1.7vh;
     border: rgb(54, 54, 54) solid 1px;
     border-radius: 25px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(255, 255, 255, 0.87);
     font-size: 11px;
     text-align: center;
+}
+
+.team1:hover {
+    opacity: 60%;
+    cursor: pointer;
 }
 
 .tt2 {
@@ -208,9 +224,11 @@ a {
     padding-right: 1.5vw;
     padding-top: 1.7vh;
     padding-bottom: 1.7vh;
-    border: rgb(54, 54, 54)solid 1px;
+    border: rgba(255, 255, 255, 0.582) solid 0.5px;
     border-radius: 25px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(37, 37, 37, 0.781);
+    text-align: center;
+    color: white;
     font-size: 11px;
     text-align: center;
 }
@@ -223,9 +241,14 @@ a {
     padding-bottom: 1.7vh;
     border: rgb(54, 54, 54) solid 1px;
     border-radius: 25px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(255, 255, 255, 0.87);
     font-size: 11px;
     text-align: center;
+}
+
+.personal2:hover {
+    opacity: 60%;
+    cursor: pointer;
 }
 
 .hyehwa2 {
@@ -236,9 +259,14 @@ a {
     padding-bottom: 1.7vh;
     border: rgb(54, 54, 54) solid 1px;
     border-radius: 25px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(255, 255, 255, 0.87);
     font-size: 11px;
     text-align: center;
+}
+
+.hyehwa2:hover {
+    opacity: 60%;
+    cursor: pointer;
 }
 
 .team2 {
@@ -249,9 +277,14 @@ a {
     padding-bottom: 1.7vh;
     border: rgb(54, 54, 54) solid 1px;
     border-radius: 25px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(255, 255, 255, 0.87);
     font-size: 11px;
     text-align: center;
+}
+
+.team2:hover {
+    opacity: 60%;
+    cursor: pointer;
 }
 
 .tt3 {
@@ -260,9 +293,11 @@ a {
     padding-right: 1.5vw;
     padding-top: 1.7vh;
     padding-bottom: 1.7vh;
-    border: rgb(54, 54, 54) solid 1px;
+    border: rgba(255, 255, 255, 0.582) solid 0.5px;
     border-radius: 25px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(37, 37, 37, 0.781);
+    text-align: center;
+    color: white;
     font-size: 11px;
     text-align: center;
 }
@@ -275,9 +310,14 @@ a {
     padding-bottom: 1.7vh;
     border: rgb(54, 54, 54) solid 1px;
     border-radius: 25px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(255, 255, 255, 0.87);
     font-size: 11px;
     text-align: center;
+}
+
+.personal3:hover {
+    opacity: 60%;
+    cursor: pointer;
 }
 
 .hyehwa3 {
@@ -288,9 +328,14 @@ a {
     padding-bottom: 1.7vh;
     border: rgb(54, 54, 54) solid 1px;
     border-radius: 25px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(255, 255, 255, 0.87);
     font-size: 11px;
     text-align: center;
+}
+
+.hyehwa3:hover {
+    opacity: 60%;
+    cursor: pointer;
 }
 
 .team3 {
@@ -301,9 +346,14 @@ a {
     padding-bottom: 1.7vh;
     border: rgb(54, 54, 54) solid 1px;
     border-radius: 25px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(255, 255, 255, 0.87);
     font-size: 11px;
     text-align: center;
+}
+
+.team3:hover {
+    opacity: 60%;
+    cursor: pointer;
 }
 
 .tt4 {
@@ -312,9 +362,11 @@ a {
     padding-right: 1.5vw;
     padding-top: 1.7vh;
     padding-bottom: 1.7vh;
-    border: rgb(54, 54, 54) solid 1px;
+    border: rgba(255, 255, 255, 0.582) solid 0.5px;
     border-radius: 25px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(37, 37, 37, 0.781);
+    text-align: center;
+    color: white;
     font-size: 11px;
     text-align: center;
 }
@@ -325,9 +377,11 @@ a {
     padding-right: 1.5vw;
     padding-top: 1.7vh;
     padding-bottom: 1.7vh;
-    border: rgb(54, 54, 54) solid 1px;
+    border: rgba(255, 255, 255, 0.349) solid 0.5px;
     border-radius: 25px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(37, 37, 37, 0.781);
+    text-align: center;
+    color: white;
     font-size: 11px;
     text-align: center;
 }
@@ -340,9 +394,14 @@ a {
     padding-bottom: 1.7vh;
     border: rgb(54, 54, 54) solid 1px;
     border-radius: 25px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(255, 255, 255, 0.87);
     font-size: 11px;
     text-align: center;
+}
+
+.hyehwa4:hover {
+    opacity: 60%;
+    cursor: pointer;
 }
 
 .team4 {
@@ -353,7 +412,28 @@ a {
     padding-bottom: 1.7vh;
     border: rgb(54, 54, 54) solid 1px;
     border-radius: 25px;
-    background-color: rgba(255, 253, 244, 0.712);
+    background-color: rgba(255, 255, 255, 0.87);
     font-size: 11px;
     text-align: center;
+}
+
+.team4:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.page2021 {
+    width: 84vw;
+    height: 100vh;
+    background-image: url("./img/IMAGEM.jpeg");
+    background-size: cover;
+    /* background-color: rgb(255, 191, 131); */
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+.projectbigdiv2 {
+    margin-top: 14vh;
+    display: flex;
+    flex-direction: row;
 }
