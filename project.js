@@ -9,7 +9,7 @@ const swiper = new Swiper('.swiper-container', {
     //드레그 기능 true 사용가능 false 사용불가
     debugger: true,
     //마우스 휠기능 true 사용가능 false 사용불가
-    mousewheel: true,
+    mousewheel: false,
     //반복 기능 true 사용가능 false 사용불가
     loop: true,
     //선택된 슬라이드를 중심으로 true 사용가능 false 사용불가 djqt

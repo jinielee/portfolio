@@ -18,7 +18,8 @@
 }
 
 :root {
-    --swiper-theme-color: #007aff
+    --swiper-navigation-color: #4e4e4e;
+    --swiper-pagination-color: #4e4e4e;
 }
 
 .swiper-container {
