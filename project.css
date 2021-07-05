@@ -20,14 +20,14 @@ body {
 
 .swiper-container {
     top: 20vh;
-    width: 80%;
+    width: 88%;
     height: 60vh;
 }
 
 .swiper-slide {
     line-height: 30px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     background: #fff;
     /* Center slide text vertically */
     display: -webkit-box;

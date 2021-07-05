@@ -88,8 +88,8 @@ a {
 }
 
 .circle {
-    font-size: 38px;
-    color: rgb(255, 254, 249);
+    font-size: 36px;
+    color: rgb(255, 255, 255);
     position: absolute;
     width: 230px;
     height: 230px;
@@ -100,7 +100,16 @@ a {
     line-height: 230px;
 }
 
+.circle a {
+    color: white;
+}
+
 .circle:hover {
+    opacity: 85%;
+    cursor: pointer;
+}
+
+.circle a:hover {
     opacity: 100%;
     cursor: pointer;
 }
@@ -144,4 +153,31 @@ a {
     color: rgb(247, 247, 247);
     font-size: 20px;
     line-height: 36px;
+}
+
+.page3 {
+    display: flex;
+    flex-direction: row;
+    background-image: url("./img/oooo.jpeg");
+    background-size: cover;
+    /* background-color: rgb(253, 253, 252); */
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.iam {
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+
+.page4 {
+    display: flex;
+    flex-direction: row;
+    background-image: url("./img/oooo.jpeg");
+    background-size: cover;
+    /* background-color: rgb(253, 253, 252); */
+    width: 100%;
+    height: 100vh;
+    color: white;
 }
