@@ -12,16 +12,24 @@ body {
     padding: 0;
 }
 
+.page1 {
+    background-image: url(./img/Sunflower\ Spectacle.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
 .pagef {
     background-image: url(./img/jjj.jpeg);
+    background-size: cover;
     width: 100%;
     height: 100vh;
 }
 
 .swiper-container {
-    top: 20vh;
+    top: 30vh;
     width: 88%;
-    height: 60vh;
+    height: 50vh;
 }
 
 .swiper-slide {
@@ -42,6 +50,10 @@ body {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+}
+
+.swiper-slide a {
+    color: rgb(27, 27, 27)
 }
 
 .swiper-container-vertical>.swiper-pagination-bullets {
