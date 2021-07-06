@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     position: relative;
@@ -13,10 +17,55 @@ body {
 }
 
 .page1 {
-    background-image: url(./img/Sunflower\ Spectacle.jpeg);
+    background-image: url(./img/oooo.jpeg);
     background-size: cover;
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.pagebigment {
+    color: rgb(248, 248, 248);
+    font-size: 130px;
+    padding-top: 40vh;
+    padding-left: 8vw;
+}
+
+.imglinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgdivsmall {
+    position: relative;
+    width: 40vw;
+    /* padding-left: ;
+    padding-right: 5px; */
+}
+
+.imgg {
+    position: absolute;
+}
+
+.circle {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    background-color: rgba(63, 63, 63, 0.938);
+    opacity: 0%;
+    border: cornflowerblue solid 0px;
+    border-radius: 50%;
+    line-height: 230px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.circle:hover {
+    opacity: 85%;
+    cursor: pointer;
 }
 
 .pagef {
@@ -26,8 +75,15 @@ body {
     height: 100vh;
 }
 
+.title {
+    color: rgb(248, 248, 248);
+    padding-top: 20vh;
+    padding-left: 7vw;
+    font-size: 50px;
+}
+
 .swiper-container {
-    top: 30vh;
+    top: 8.5vh;
     width: 88%;
     height: 50vh;
 }
