@@ -103,7 +103,7 @@ a {
     border: cornflowerblue solid 0px;
     border-radius: 50%;
     line-height: 230px;
-    transition: 0.6s;
+    transition: 0.3s;
 }
 
 .circle a {
